@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
         <article className="home">Contact</article>
         <article className="home">About us</article>
       </section>
+      <Footer />
     </>
   );
 };
