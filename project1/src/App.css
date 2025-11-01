@@ -24,16 +24,28 @@ text : #040305
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-image: url("../src/assets/lunchroom-het-oosten-indebuurt-dordrecht.jpg");
+    background-repeat: round;
+    background-size: cover;
   }
   .home {
-    text-align: center;
-    border: #d91f27 solid 1px;
+    color: #fff;
     margin: 10px;
-    padding: 20px;
-    width: 150px;
-    height: 200px;
+    width: 160px;
+    height: 180px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: #d91f27 solid 3px;
+    border-radius: 20px;
+    box-shadow: #fbf1cb71 5px 5px 5px;
   }
+
   .footer {
+    margin: 10px;
+    height: 60px;
+    text-align: center;
     background-color: #fbf1cb;
   }
 }
