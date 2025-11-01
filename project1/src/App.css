@@ -1,0 +1,36 @@
+/* colors{ 
+borders & hoover : #d91f27  
+background: #fbf1cb 
+hoover text : #f3a91c
+text : #040305
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 430px) {
+  .nav {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbf1cb;
+  }
+
+  .homePage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home {
+    text-align: center;
+    border: #d91f27 solid 1px;
+    margin: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+  }
+}
